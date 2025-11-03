@@ -1,0 +1,30 @@
+{
+  "title": "IaC \u2013 Azure Bicep Modules",
+  "slug": "iac-azure-bicep",
+  "role": "Author & Maintainer",
+  "stack": [
+    "Azure",
+    "Bicep",
+    "ARM",
+    "GitHub Actions"
+  ],
+  "dates": {
+    "start": "2025-11"
+  },
+  "summary": "Reusable Bicep modules for multi-tenant deployments with parameterized naming (<ORG_NAME>-<APP_NAME>-<ENV>) and subscription-level orchestration.",
+  "highlights": [
+    "Key Vault, Storage, Log Analytics, ACR, Container Apps env modules",
+    "Dev/Prod parameter files with safe placeholders",
+    "Validation workflow that builds all .bicep files"
+  ],
+  "links": {
+    "readme": "README.md",
+    "docs": "modules/"
+  },
+  "tags": [
+    "iac",
+    "azure",
+    "bicep",
+    "devops"
+  ]
+}
