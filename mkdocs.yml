@@ -1,0 +1,39 @@
+site_name: IaC – Azure Bicep Modules
+site_description: Reusable Bicep modules for multi-tenant deployments
+site_url: https://martz-cloud.github.io/iac-azure-bicep/
+repo_name: martz-cloud/iac-azure-bicep
+repo_url: https://github.com/martz-cloud/iac-azure-bicep
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  language: en
+nav:
+  - Overview: index.md
+  - Quickstart: quickstart.md
+  - Modules:
+      - Key Vault: modules/keyvault.md
+      - Storage: modules/storage.md
+      - Log Analytics: modules/loganalytics.md
+      - Container Registry: modules/containerregistry.md
+      - Container Apps Env: modules/containerapps-env.md
+      - Cognitive Search: modules/cognitive-search.md
+      - PostgreSQL Flexible: modules/postgres-flex.md
+  - CI/CD: cicd.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.highlight
