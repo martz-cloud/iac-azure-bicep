@@ -19,7 +19,7 @@
   ],
   "links": {
     "readme": "README.md",
-    "docs": "modules/"
+    "docs": "https://martz-cloud.github.io/iac-azure-bicep"
   },
   "tags": [
     "iac",
